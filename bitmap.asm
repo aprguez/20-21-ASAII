@@ -7,7 +7,7 @@ memoria:
 	la t0, memoria
 	
 	#-- Damos el valor que queramos para escribir
-	li x10, 0xCC22
+	li x10, 0xCC222C
 	
 	#-- Este es nuestro dibujo
 	sw x10, 0x0(t0)
