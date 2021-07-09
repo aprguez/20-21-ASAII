@@ -19,6 +19,11 @@ memoria:
 	sw x10, 0x80(t0)
 	sw x10, 0x88(t0)
 	
+	#--Centro
+	sw x10, 0xCC(t0)
+	sw x10, 0xD0(t0)
+	sw x10, 0x10C(t0)
+	sw x10, 0x110(t0)
 	
 	#-- Terminar
 	li a7, 10
