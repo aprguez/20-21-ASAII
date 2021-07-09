@@ -10,7 +10,7 @@ memoria:
 	li x10, 0xCC222C
 	
 	#-- Este es nuestro dibujo
-	sw x10, 0x0(t0)
+	sw x10, 0x110(t0)
 	
 	#-- Terminar
 	li a7, 10
