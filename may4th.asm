@@ -7,7 +7,8 @@ memoria:
 	la t0, memoria
 	
 	#-- Damos el valor que queramos para escribir
-	li x10, 0xCC
+	li x10, 0xCC222C
+	li x11, 0xCC
 	
 	#-- Este es nuestro dibujo Final
 	#--M
@@ -128,9 +129,9 @@ memoria:
 	sw x10, 0x3F4(t0)
 	
 	#--!
-	sw x10, 0x33C(t0)
-	sw x10, 0x37C(t0)
-	sw x10, 0x3FC(t0)
+	sw x11, 0x33C(t0)
+	sw x11, 0x37C(t0)
+	sw x11, 0x3FC(t0)
 	
 	
 	#-- Terminar
